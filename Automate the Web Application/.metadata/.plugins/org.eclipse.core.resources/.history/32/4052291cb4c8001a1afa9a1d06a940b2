@@ -1,0 +1,20 @@
+package com.test.authentication;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.test.drivers.DriverStart;
+
+public class Registration extends DriverStart{
+	
+	@Test
+	public void openSignIn() {
+		driver.findElement(By.id("login")).click();
+		
+		expected="Login - My Store";
+		actual=driver.getTitle();
+		
+	}
+
+}

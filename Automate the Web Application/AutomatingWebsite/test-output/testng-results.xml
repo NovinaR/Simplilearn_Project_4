@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53668" started-at="2020-07-18T14:30:28Z" finished-at="2020-07-18T14:31:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53668" started-at="2020-07-18T14:30:28Z" finished-at="2020-07-18T14:31:21Z">
+      <class name="Authentication.Registration">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Authentication.Registration@51c668e3]" name="openBrowser" is-config="true" duration-ms="16017" started-at="2020-07-18T14:30:28Z" finished-at="2020-07-18T14:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openSignInPage()[pri:0, instance:Authentication.Registration@51c668e3]" name="openSignInPage" duration-ms="3862" started-at="2020-07-18T14:30:44Z" finished-at="2020-07-18T14:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignInPage -->
+        <test-method status="PASS" signature="validEmail()[pri:0, instance:Authentication.Registration@51c668e3]" name="validEmail" duration-ms="28632" started-at="2020-07-18T14:30:47Z" finished-at="2020-07-18T14:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Authentication.Registration@51c668e3]" name="closeBrowser" is-config="true" duration-ms="5132" started-at="2020-07-18T14:31:16Z" finished-at="2020-07-18T14:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Authentication.Registration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Website_Automation(failed)">
+    <classes>
+      <class name="Authentication.Login">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Authentication.Login -->
+      <class name="Authentication.Registration">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openSignInPage"/>
+          <include name="openBrowser"/>
+          <include name="validEmail"/>
+        </methods>
+      </class> <!-- Authentication.Registration -->
+    </classes>
+  </test> <!-- Website_Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

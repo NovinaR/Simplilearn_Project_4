@@ -1,0 +1,5 @@
+package com.test.authentication;
+
+public class Registration {
+
+}
